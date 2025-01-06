@@ -1,0 +1,41 @@
+Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
+
+A data type is a way to tell a computer what kind of data you are working with, so it knows how to process it. Think of it as a "label" for your data. For example, a number, a letter, or a list of items can all be stored as different types of data.
+
+Types of Data Types
+
+Primitive Data Types
+Non-Primitive Data Types
+
+-----
+1.Primitive data type-non-mutable,built-in,single value
+-string
+sequence of characters enclosed within "",'',``(template literals/backtiks)
+typeof(identifier)-to recheck
+
+-number
+range=-2^53-1 to ++2^53-1
+beyond this range datatype is bigint
+
+-Boolean
+true/false
+
+-undefined
+declared but not initialized
+
+-null
+acceptable empty value,absence of an object
+typeof() return object
+
+-symbol
+
+-bigint
+any valye suffix with "n" is bigint
+eg:2n
+
+2.Non-primitive data types-mutable,user-defined,multiple values
+-objects(math,date,json)
+-arrays
+-functions
+
+
