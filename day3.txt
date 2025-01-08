@@ -1,3 +1,5 @@
+
+-------------------------------------------------------------------
 types of variables 
 var-both re-initialiazation and declaration are possible
 let-can reinitialize but not re declare

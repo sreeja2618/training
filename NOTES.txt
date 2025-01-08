@@ -1,0 +1,222 @@
+
+what is GitHub?
+-it is used to store data permanently
+-allows collaboration
+-visual experience of repositories
+what is git?
+-version control system used to track the changes in files or folders
+-staging area-imaginary space in local space that stores tracked files
+Git commands:
+1.git init-initializing empty git repository in local machine.
+2.git add filename-working copy(untracked files)to tracked files and adds to staging area
+3.git commit -m "msg"-push message to local repository ,used to write commit message
+4.git push url-used to push code from local repo to remote repo(GitHub)
+5.git clone url-used to take a copy of remote repo into local repo
+git remote add origin https://github.com/sreeja2618/training.git
+git push -u origin master
+git add .
+------------------------------------------
+HTML-hyper text markup language
+-hyper text-text containing multiple links
+-used to create structure content
+CSS-cascading styling sheets
+-font
+-color
+-size
+-position
+-shape
+JAVASCRIPT(Functionalized programming language
+-used to design dynamic websites
+-Static website-constant to every user
+1.fb login
+-Dynamic website-different to everyone depending upon data
+1.youtube
+2.criczbuzz
+3.google maps
+4.amazon
+-used for web development
+-used on both client and server side
+-allows the webpage to change without reloading the entire page
+-is a scripting language
+-mainly used for form validation
+-released by company "Netscape"
+-latest version "ES13"
+-ECMA-European computer Manufacturing association
+-running code line byline is synchronous execution
+*Variables:
+-used to store data
+-store any kind of data
+-when a variable is used multiple times to assign a value,latest value is considered
+-variables cant start with numbers
+-variables can start with letters,_,$
+-variables can include letters,numbers,special char(_,$)
+-variables are case-sensitive(except for sql)
+-space between two words in variable is not allowed
+---------------------------------------------------------------
+types of variables 
+var-both re-initialiazation and declaration are possible
+let-can reinitialize but not re declare
+constant-not both
+
+var username="rakesh"
+var-variable
+username-identifier
+rakesh-value/data
+
+-method to print in ui=document.writeln
+
+what is comment?
+-to give an information to the developers
+
+html=<!--comment-->
+css=/*comment*/
+2types
+------
+1.Single line=//
+2.Multiple line=/*comment*/
+
+var
+------
+var a=10;
+a=100;-->re-initialization
+console.log(a);-->100
+
+var user="m";
+var user="p";-->re-declaration
+console.log(user);-->p
+let
+------
+let a=10;
+a=100;-->re-initialization
+console.log(a);-->100
+
+var user="m";
+var user="p";-->re-declaration
+console.log(user);-->cannot re-declare
+----------
+What is datatype?
+used to specify what kind of data is stored in a variable
+types
+-----
+1.Primitive data type-non-mutable,built-in,single value
+-string
+sequence of characters enclosed within "",'',``(template literals/backtiks)
+typeof(identifier)-to recheck
+
+-number
+range=-2^53-1 to ++2^53-1
+beyond this range datatype is bigint
+
+-Boolean
+true/false
+
+-undefined
+declared but not initialized
+
+-null
+acceptable empty value,absence of an object
+typeof() return object
+
+-symbol
+
+-bigint
+any valye suffix with "n" is bigint
+eg:2n
+
+2.Non-primitive data types-mutable,user-defined,multiple values
+-objects(math,date,json)
+-arrays
+-functions
+--------------------------------------------------------------------
+Operators:
+Special are special type of symbols used to perform some operations on operands
+-unary
+-binary
+-ternary(operand1?operand2:operand3)
+----------------------------------------------
+arithmetic operator
+addition
+subtraction
+multiplication
+modulus
+divison
+increment(++)
+   -pre-increment:increment before execution
+   -post-increment:increment after execution
+decrement(--)
+   -pre-decrement:decrement before execution
+   -post-decrement:decrement after execution
+exponential
+----------------------------------------------
+assignment operator
+=
+*=
+-=
++=
+/=
+**=
+%=
+--------------------------------------------
+relational operator
+used to compare two values
+==-doesnot check datatype
+===-checks datatype
+!=-doesnot check datatype
+!==-checks datatype
+>
+<
+>=
+<=
+--------------------------------------------
+logical operator
+AND(&&)-when both the conditions are true then returns true else false
+OR(||)-when both are true or even if any one is true then true else false
+NOT(!)-if true then returns false and viceversa
+--------------------------------------------
+concatenation:adding two or more strings
+typecasting:converting one datatype to another 
+NaN:not a number-illegal,which cannot be performed
+-----------------------------------------------
+decision making statements
+if-only work for true statements
+if else
+esle if ladder-multiple condition
+switch
+ternary
+take 3 values and print which value is greater among 3 numbers
+--------------------------------------------------------
+looping statements
+-to execute the block of code repeatedly
+for loop
+-will be used when exact iteration count is known
+syntax:
+for(initialization;consition;updation){
+       //statements
+         }
+while loop
+-will be used when we dont know exact iteration count
+syntax:
+while(condition){
+//statements
+}
+do-while
+-will be used when we dont know exact iteration count
+syntax:
+do{
+//statements
+}while(condition)
+*entry-control loops-for,while
+*exit control loops-do-while
+min iterations of for and while is 0
+min iterations for do-while is 1
+---------------------------------------------
+difference between break and continue
+break-when consiiton satisfied it will terminate the loop permanently
+continue-when the condiditon is satisfied it will only skip that particular loop
+----------------------------------------------
+Methods:block of code used to perform specific task
+Functions:reusable code
+
+
+
+
