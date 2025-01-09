@@ -216,6 +216,40 @@ continue-when the condiditon is satisfied it will only skip that particular loop
 ----------------------------------------------
 Methods:block of code used to perform specific task
 Functions:reusable code
+function is a block of code used to execute specific task asssigned to it
+function is a non-primitive datatype
+functions can be reusable
+syntax:function function_name(optional parameters){//function declaration
+//statements
+}
+function_name(arguments)
+---------------------------
+Types of  Functions:
+Named function:function in which its having a name and  invoked with name
+Anonymous function:function which doesnot have any name for declaration and invoking
+-cannot be implemented directly use next 2 types
+function expression
+-can be called any number of times(variables)
+-Anonymousfunction is assigned to a variable and invoked
+immediate invoke function expression(iife)
+-can be called only once(())
+-once the function is created immediately it should be invkoed
+arrow function
+-used to concise the normal function syntax
+syntax:
+()=>{
+};
+-is similar to Anonymous function
+higher order function
+callback function
+-------------------------------------
+closure
+
+Note:
+current version of javascript is es14
+but stable version is es6
+
+
 
 
 

@@ -47,10 +47,3 @@ for(let i=1;i<=10;i++){
         continue;
     console.log(i);
 }
-function addtocart(){
-    alert("Product is added to cart");
-}
-function add(a,b){
-    console.log(a+b);
-}
-add(10,40);
