@@ -40,6 +40,8 @@ JAVASCRIPT(Functionalized programming language
 -is a scripting language
 -mainly used for form validation
 -released by company "Netscape"
+-Brendan Eich(intoduced by)
+-LiveScript(first name of js)
 -latest version "ES13"
 -ECMA-European computer Manufacturing association
 -running code line byline is synchronous execution
@@ -226,24 +228,38 @@ function_name(arguments)
 ---------------------------
 Types of  Functions:
 Named function:function in which its having a name and  invoked with name
+
 Anonymous function:function which doesnot have any name for declaration and invoking
 -cannot be implemented directly use next 2 types
+
 function expression
 -can be called any number of times(variables)
 -Anonymousfunction is assigned to a variable and invoked
+
 immediate invoke function expression(iife)
 -can be called only once(())
 -once the function is created immediately it should be invkoed
+
 arrow function
 -used to concise the normal function syntax
 syntax:
 ()=>{
 };
 -is similar to Anonymous function
+
 higher order function
+- a function which accepts another function as an arguments to its paramter.
+
+-return:return variable/expression/values,terminate the function body
+explicit return
+implicit return
+
 callback function
+function that is passed as an argument/value for another function.
 -------------------------------------
 closure
+-is a memory where functions are bundled together/functions are nested eachother
+by giving accessibility to the inner most function to access the variables of outer most function
 
 Note:
 current version of javascript is es14

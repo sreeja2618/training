@@ -1,15 +1,15 @@
-//
-// for(let i=0;i<=4;i++){
-//     for(let j=0;j<=4;j++){
-//     document.write("*");
+
+
+
+// let pattern3 = "";
+// for (let i = 1; i <= 5; i++) {
+//     for (let j = 1; j <= 5; j++) {
+//         if (j === i || j === 5 - i + 1) {
+//             pattern3 += "*";
+//         } else {
+//             pattern3 += " ";
+//         }
 //     }
-//     document.write(" ");
-//     document.write("<br>");
+//     pattern3 += "\n";
 // }
-// for(let i=0;i<=4;i++){
-//     for(let j=0;j<=i;j++){
-//     document.write("*");
-//     }
-//     document.write(" ");
-//     document.write("<br>");
-// }
+// document.write(pattern3);
