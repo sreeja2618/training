@@ -1,0 +1,9 @@
+{
+    "users":[{
+        "name":"sreeja",
+        "age":19
+    },{
+        "name":"Sree",
+        "age":20
+    }]
+}

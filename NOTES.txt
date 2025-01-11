@@ -43,6 +43,9 @@ JAVASCRIPT(Functionalized programming language
 -Brendan Eich(intoduced by)
 -LiveScript(first name of js)
 -latest version "ES13"
+Note:
+current version of javascript is es14
+but stable version is es6
 -ECMA-European computer Manufacturing association
 -running code line byline is synchronous execution
 *Variables:
@@ -260,10 +263,52 @@ function that is passed as an argument/value for another function.
 closure
 -is a memory where functions are bundled together/functions are nested eachother
 by giving accessibility to the inner most function to access the variables of outer most function
+------------------------
+Arrays:
+collection of items/valuexs
+-array can store homogenous values and heterogenous values
+syntax:-
+[]
+-----------------------------
+map and foreach difference
+map-used to iterate the values of array one by one-it will return new 
+Array from original
 
-Note:
-current version of javascript is es14
-but stable version is es6
+ForEach:
+will not return the new array
+return undefined
+------------------------------
+methods in array:
+push()-add end index of array
+pop()-remove end index of array
+unshift()-add in the first index of array
+shift()-remove first index
+reverse()-reverse the array
+join()-return the array as string
+concat()-add the arrays
+---------------------------------------
+Object:
+-object is an entity 
+-main purpose is to store the values in the form of key and value pair
+-physical entity which is having states(properties) and behavior(functionality)
+-syntax:
+let obj={};
+NOTE:javascript is called as object based language+OOPs until es6 later both class and object based
+ex:let obj={
+            name:"sreeja",
+            age:25
+}
+-----------------------------------------
+Json:
+used totransmit data from client to server and server to client
+syntax:{
+         "key":"value"
+}
+-for json no need to store inside a variable
+-keys and values should be double coated only except numbers
+
+
+
 
 
 
