@@ -265,18 +265,23 @@ closure
 by giving accessibility to the inner most function to access the variables of outer most function
 ------------------------
 Arrays:
+non-primitive datatype
 collection of items/valuexs
 -array can store homogenous values and heterogenous values
+-out of index bound-undefined
 syntax:-
-[]
+let arr=[];
 -----------------------------
 map and foreach difference
-map-used to iterate the values of array one by one-it will return new 
-Array from original
 
-ForEach:
-will not return the new array
-return undefined
+map-used to iterate the values of array one by one
+-it will return new Array from original when return is used
+-used mostly for strings
+
+
+ForEach-used to values from the array
+will not return the new array(copied array)
+return undefined when return is used
 ------------------------------
 methods in array:
 push()-add end index of array
@@ -298,6 +303,7 @@ ex:let obj={
             name:"sreeja",
             age:25
 }
+NOTE:"this" keyword is used to access current exceuting object properties
 -----------------------------------------
 Json:
 used totransmit data from client to server and server to client
@@ -306,6 +312,10 @@ syntax:{
 }
 -for json no need to store inside a variable
 -keys and values should be double coated only except numbers
+-json is always in the form of string
+Methods if Json:
+JSON.stringfy()-js object to java object:stringfy
+JSON.parse()-java object to js object:parse
 
 
 
