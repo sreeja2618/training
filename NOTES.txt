@@ -316,7 +316,25 @@ syntax:{
 Methods if Json:
 JSON.stringfy()-js object to java object:stringfy
 JSON.parse()-java object to js object:parse
+ //font awesome
+ -------------------------------------------
+ asynchronous in js
+ -to perform multiple task in js
+ NOTE:by default,javascript is synchronous(single threaded)
+ NOTE:by default java is single thread
+ 1.setTimeout():-it is a web api
 
+ 2.setInterval()it is a web api used to perform async opeartions at certain time interval
+ syntax: setInterval(callback,timeout)
+
+ 3.promise-is an object which represents eventual completion or failure of asyncronous operation
+ States:
+ 1.pending states
+ 2.fulfilled states
+ 3.rejected states
+ syntax:-let p=new Promise((resolve,reject)=>{});
+ NOTE:compulsory to give a callback fn
+ 4.async and await
 
 
 
