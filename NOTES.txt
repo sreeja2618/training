@@ -334,7 +334,13 @@ JSON.parse()-java object to js object:parse
  3.rejected states
  syntax:-let p=new Promise((resolve,reject)=>{});
  NOTE:compulsory to give a callback fn
+ -the actual way of executing the promise is instance method
+ i.then()-used to execute fulfilledstate
+ ii.catch()-used to execute rejected state
+ iii.finally()-once promise is settled it will print the value
  4.async and await
+ --------------------------------------------------
+ api-application programming interface
 
 
 
