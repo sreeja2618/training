@@ -339,8 +339,29 @@ JSON.parse()-java object to js object:parse
  ii.catch()-used to execute rejected state
  iii.finally()-once promise is settled it will print the value
  4.async and await
+ async:converts synchronous fn to asynchronous fn and start to execute the promise
+ await:used to make the fn to wait until the promise complete
  --------------------------------------------------
  api-application programming interface
+ --------------------------------------------------
+ DOM:Document Object Model
+ -used to add,update,remove  content in the html documnent
+ -used to manipulate content in the html document
+
+ DOM methods:
+ -start with document always
+ 1.document.getElementById(""):-used to target the html element based on id attribute value
+                              -id attribute must be unique
+ 2.document.getElementByClassName(""):used to target the element based on the class attribute value
+                              -class attribute can be used with multiple elements unlike id
+ 3.document.getElementByTagName(""):used to select  based on tag names
+ 4.document.getElementByName(""):it is used to traget html element based on name attribute value
+ -these below methods are quite different from 4 methods
+ 5.document.querySelecter("")-#id value
+ selects only 1 element
+ 6.document.querySelecterAll("")-.class
+ selects multiple elements
+
 
 
 
