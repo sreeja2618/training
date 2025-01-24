@@ -360,7 +360,30 @@ JSON.parse()-java object to js object:parse
  5.document.querySelecter("")-#id value
  selects only 1 element
  6.document.querySelecterAll("")-.class
+ queryselector is faster than getelementbyid 
  selects multiple elements
+ innerText:it is a property to manipulateplain text
+ innerHTML:it is a property used to add/remove the content within a element
+ ===========================================
+ spread operator: takes each and every value from original array and store it inside one more new array
+ new array is always a pure Array
+ ======================================================
+ Event in DOM
+ -events are actions performed on html element
+ -click events,mouwse events,key events
+
+ Importrtant events:
+ click events:
+ onclick
+ ondbclick
+ onsubmit
+ onchange
+ mouse events:
+ mouseover,mouseleave
+ key events:
+ keydown
+ keyup
+ keypress(deprecated)
 
 
 
