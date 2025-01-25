@@ -371,8 +371,7 @@ JSON.parse()-java object to js object:parse
  Event in DOM
  -events are actions performed on html element
  -click events,mouwse events,key events
-
- Importrtant events:
+Importrtant events:
  click events:
  onclick
  ondbclick
@@ -384,6 +383,14 @@ JSON.parse()-java object to js object:parse
  keydown
  keyup
  keypress(deprecated)
+ ====================================================
+ dynamic creation of html element from hjs:
+ dynamic element in js we have a method called "document.createElement"
+ to create an attribute we have an attribute called "setAttribute"
+ to remove an attribute we have an attribute called "removeAttribute"
+
+
+
 
 
 

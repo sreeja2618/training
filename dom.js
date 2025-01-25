@@ -52,10 +52,46 @@
 //         document.body.click.backgroundColor="yellow";
 //     })
 
-let divblock=decodeURIComponent.getElementById("divblock");
-divblock.addListener("mousehover",()=>{
-    document.body.style.backgroundColor="yellow"
-    divblock.style.backgroundColor="blue"
+// let divblock=document.getElementById("red");
+// divblock.addListener("mousehover",()=>{
+//     document.body.style.backgroundColor="red"
+    
+// })
+// let bg=document.querySelector(".bgColor");
+// [...bg].map((ele)=>{
+//     ele.addEventListener("mouseover",()=>{
+//         ele.style.backgroundColor=ele.innerText;
+//     })
+// })
+
+// let ele=document.createElement("h1");
+// ele.innerText="Dynamic";
+// console.log(ele);
+// let image=document.createElement("img");
+// image.src="./paris1.png"
+// console.log(image);
+// document.body.appendChild(ele);
+// document.body.appendChild(image);
+
+let form=document.querySelector("form");
+let username=document.getElementById("username");
+let mail=document.getElementById("usermail");
+let pass=document.getElementById("userpass");
+form.addEventListener("submit",(event)=>{
+    //to stop refreshing
+    event.preventDefault();
+//     console.log(event);
+//    console.log("Form submitted");
+let uname=username.value;
+console.log(uname);
+let uemail=mail.value;
+console.log(uemail);
+let upass=pass.value;
+console.log(upass);
+let userDetails={uname,uemail,upass};
+console.log(userDetails);
+localStorage.setItem("userData",JSON.stringify(userDetails));
+
 })
 
 
