@@ -384,10 +384,12 @@ Importrtant events:
  keyup
  keypress(deprecated)
  ====================================================
- dynamic creation of html element from hjs:
- dynamic element in js we have a method called "document.createElement"
- to create an attribute we have an attribute called "setAttribute"
- to remove an attribute we have an attribute called "removeAttribute"
+ dynamic creation of html element from js:
+ dynamic element in js we have a method called "document.createElement()"
+ to create an attribute we have an attribute called "setAttribute()"
+ to remove an attribute we have an attribute called "removeAttribute()"
+ any element which is created in js will not add into documentwe have to add it manually by
+ document.body.appendChild(image)
 
 
 

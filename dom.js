@@ -73,26 +73,80 @@
 // document.body.appendChild(ele);
 // document.body.appendChild(image);
 
-let form=document.querySelector("form");
-let username=document.getElementById("username");
-let mail=document.getElementById("usermail");
-let pass=document.getElementById("userpass");
-form.addEventListener("submit",(event)=>{
+// let form=document.querySelector("form");
+// let username=document.getElementById("username");
+// let mail=document.getElementById("usermail");
+// let pass=document.getElementById("userpass");
+// form.addEventListener("submit",(event)=>{
     //to stop refreshing
-    event.preventDefault();
+    // event.preventDefault();
 //     console.log(event);
 //    console.log("Form submitted");
-let uname=username.value;
-console.log(uname);
-let uemail=mail.value;
-console.log(uemail);
-let upass=pass.value;
-console.log(upass);
-let userDetails={uname,uemail,upass};
-console.log(userDetails);
-localStorage.setItem("userData",JSON.stringify(userDetails));
+// let uname=username.value;
+// console.log(uname);
+// let uemail=mail.value;
+// console.log(uemail);
+// let upass=pass.value;
+// console.log(upass);
+// let userDetails={uname,uemail,upass};
+// console.log(userDetails);
+// localStorage.setItem("userData",JSON.stringify(userDetails));
 
-})
+// })
+
+// let photo=document.createElement("video");
+// photo.setAttribute("src","/vid.mp4");
+// photo.setAttribute("controls","controls");
+// console.log(photo);
+// document.body.append(photo);
+
+// let h1=document.createElement("h1");
+// h1.setAttribute("id","demo");
+// h1.innerText="MRU";
+// console.log(h1);
+// document.body.appendChild(h1);
+// h1.removeAttribute(h1);
+
+let main=document.createElement("div");
+main.setAttribute("id","mainblock");
+main.style.border="2px solid red"
+main.style.width-"200px"
+main.style.width="200px"
+main.style.textAlign="center"
+console.log(main);
+
+let topEle=document.createElement("div");
+topEle.setAttribute("class","topblock");
+
+let image=document.createElement("img");
+image.setAttribute("src","/paris1.png")
+image.style.width="200px"
+
+// console.log(topEle);
+
+let bottomEle=document.createElement("div");
+bottomEle.setAttribute("class","bottomblock");
+// console.log(bottomEle);
+
+let h1=document.createElement("h1");
+h1.innerText="Paris";
+h1.style.textAlign="center";
+
+let btn=document.createElement("button");
+btn.innerText="View more";
+btn.style.border="none";
+btn.style.padding="10px";
+btn.style.backgroundColor="red";
+btn.style.color="white";
+
+bottomEle.appendChild(h1);
+bottomEle.appendChild(btn);
+topEle.appendChild(image);
+main.appendChild(topEle);
+main.appendChild(bottomEle);
+
+document.body.appendChild(main);
+
 
 
 
