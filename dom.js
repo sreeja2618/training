@@ -107,45 +107,90 @@
 // document.body.appendChild(h1);
 // h1.removeAttribute(h1);
 
-let main=document.createElement("div");
-main.setAttribute("id","mainblock");
-main.style.border="2px solid red"
-main.style.width-"200px"
-main.style.width="200px"
-main.style.textAlign="center"
-console.log(main);
+// let main=document.createElement("div");
+// main.setAttribute("id","mainblock");
+// main.style.border="2px solid red"
+// main.style.width-"200px"
+// main.style.width="200px"
+// main.style.textAlign="center"
+// console.log(main);
 
-let topEle=document.createElement("div");
-topEle.setAttribute("class","topblock");
+// let topEle=document.createElement("div");
+// topEle.setAttribute("class","topblock");
 
-let image=document.createElement("img");
-image.setAttribute("src","/paris1.png")
-image.style.width="200px"
+// let image=document.createElement("img");
+// image.setAttribute("src","/paris1.png")
+// image.style.width="200px"
 
-// console.log(topEle);
+// // console.log(topEle);
 
-let bottomEle=document.createElement("div");
-bottomEle.setAttribute("class","bottomblock");
-// console.log(bottomEle);
+// let bottomEle=document.createElement("div");
+// bottomEle.setAttribute("class","bottomblock");
+// // console.log(bottomEle);
 
-let h1=document.createElement("h1");
-h1.innerText="Paris";
-h1.style.textAlign="center";
+// let h1=document.createElement("h1");
+// h1.innerText="Paris";
+// h1.style.textAlign="center";
 
-let btn=document.createElement("button");
-btn.innerText="View more";
-btn.style.border="none";
-btn.style.padding="10px";
-btn.style.backgroundColor="red";
-btn.style.color="white";
+// let btn=document.createElement("button");
+// btn.innerText="View more";
+// btn.style.border="none";
+// btn.style.padding="10px";
+// btn.style.backgroundColor="red";
+// btn.style.color="white";
 
-bottomEle.appendChild(h1);
-bottomEle.appendChild(btn);
-topEle.appendChild(image);
-main.appendChild(topEle);
-main.appendChild(bottomEle);
+// bottomEle.appendChild(h1);
+// bottomEle.appendChild(btn);
+// topEle.appendChild(image);
+// main.appendChild(topEle);
+// main.appendChild(bottomEle);
 
-document.body.appendChild(main);
+// document.body.appendChild(main);
+
+let form=document.querySelector("form");
+let username=document.getElementById("username");
+let mail=document.getElementById("usermail");
+let pass=document.getElementById("userpass");
+let gender=document.getElementsByName("gender");
+let check=document.getElementById("check");
+let show=document.getElementById("show");
+
+check.addEventListener("click",(event)=>{
+   if (event.target.checked==true){
+            pass.setAttribute("type","text");
+            show.innerText="Hide password"
+   }
+   else{
+            pass.setAttribute("type","password");
+            show.innerText="Show password"
+   }
+
+})
+ 
+form.addEventListener("submit",event=>{
+    event.preventDefault();
+    let un=username.value;
+    let up=pass.value;
+    let gen="";
+    for(let i =0;i<=gender.length-1;i++){
+        // console.log(gender[i].value);
+        // console.log(gender[i].checked);
+        if(gender[i].checked==true){
+            gen=gender[i].value;
+        }
+    }
+    let um=mail.value;
+    let userDetails={
+        username:un,
+        password:up,
+        email:um,
+        Gender:gen
+    }
+    console.log(userDetails);
+    sessionStorage.setItem("userData",JSON.stringify(userDetails))
+
+})
+
 
 
 
