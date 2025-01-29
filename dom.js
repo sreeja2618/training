@@ -147,48 +147,82 @@
 
 // document.body.appendChild(main);
 
-let form=document.querySelector("form");
-let username=document.getElementById("username");
-let mail=document.getElementById("usermail");
-let pass=document.getElementById("userpass");
-let gender=document.getElementsByName("gender");
-let check=document.getElementById("check");
-let show=document.getElementById("show");
+// let form=document.querySelector("form");
+// let username=document.getElementById("username");
+// let mail=document.getElementById("usermail");
+// let pass=document.getElementById("userpass");
+// let gender=document.getElementsByName("gender");
+// let check=document.getElementById("check");
+// let show=document.getElementById("show");
 
-check.addEventListener("click",(event)=>{
-   if (event.target.checked==true){
-            pass.setAttribute("type","text");
-            show.innerText="Hide password"
-   }
-   else{
-            pass.setAttribute("type","password");
-            show.innerText="Show password"
-   }
+// check.addEventListener("click",(event)=>{
+//    if (event.target.checked==true){
+//             pass.setAttribute("type","text");
+//             show.innerText="Hide password"
+//    }
+//    else{
+//             pass.setAttribute("type","password");
+//             show.innerText="Show password"
+//    }
 
-})
+// })
  
-form.addEventListener("submit",event=>{
-    event.preventDefault();
-    let un=username.value;
-    let up=pass.value;
-    let gen="";
-    for(let i =0;i<=gender.length-1;i++){
-        // console.log(gender[i].value);
-        // console.log(gender[i].checked);
-        if(gender[i].checked==true){
-            gen=gender[i].value;
-        }
-    }
-    let um=mail.value;
-    let userDetails={
-        username:un,
-        password:up,
-        email:um,
-        Gender:gen
-    }
-    console.log(userDetails);
-    sessionStorage.setItem("userData",JSON.stringify(userDetails))
+// form.addEventListener("submit",event=>{
+//     event.preventDefault();
+//     let un=username.value;
+//     let up=pass.value;
+//     let gen="";
+//     for(let i =0;i<=gender.length-1;i++){
+//         // console.log(gender[i].value);
+//         // console.log(gender[i].checked);
+//         if(gender[i].checked==true){
+//             gen=gender[i].value;
+//         }
+//     }
+//     let um=mail.value;
+//     let userDetails={
+//         username:un,
+//         password:up,
+//         email:um,
+//         Gender:gen
+//     }
+//     console.log(userDetails);
+//     sessionStorage.setItem("userData",JSON.stringify(userDetails))
 
+// })
+
+let array1=[{
+        empid:1,
+        empname:"sreeja",
+        empcompany:"aaa",
+        empsalary:"sss",
+        empaddress:{
+            empcity:"adb",
+            emparea:"aaa"
+            
+}
+    },{
+        empid:2,
+        empname:"sreeja1",
+        empcompany:"aaa1",
+        empsalary:"sss1",
+        empaddress:{
+            empcity:"adb1",
+            emparea:"aaa1"
+            
+}
+    }
+    ]
+    array1.map((user)=>{
+        store.innerHTML+=`
+       <tr>
+      <td>${user.empid} </td>
+       <td>${user.empname} </td>
+        <td>${user.empcompany} </td>
+        <td>${user.empsalary} </td>
+        <td>${user.empaddress.empcity} </td>
+        <td>${user.empaddress.emparea} </td>
+        </tr>`
 })
 
 

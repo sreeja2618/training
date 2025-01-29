@@ -306,7 +306,7 @@ ex:let obj={
 NOTE:"this" keyword is used to access current exceuting object properties
 -----------------------------------------
 Json:
-used totransmit data from client to server and server to client
+used to transmit data from client to server and server to client
 syntax:{
          "key":"value"
 }
@@ -371,7 +371,7 @@ JSON.parse()-java object to js object:parse
  Event in DOM
  -events are actions performed on html element
  -click events,mouwse events,key events
-Importrtant events:
+ Important events:
  click events:
  onclick
  ondbclick
@@ -390,6 +390,10 @@ Importrtant events:
  to remove an attribute we have an attribute called "removeAttribute()"
  any element which is created in js will not add into documentwe have to add it manually by
  document.body.appendChild(image)
+
+ take array of employee object,where each obj contains properties such as empid,empname,empcompany,empsalary and empaddress where 
+ empaddress is further having two more properties of object such as empcity,emparea--print this properties in a form of table on the ui by using 
+ js
 
 
 
