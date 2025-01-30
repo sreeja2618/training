@@ -362,7 +362,7 @@ JSON.parse()-java object to js object:parse
  6.document.querySelecterAll("")-.class
  queryselector is faster than getelementbyid 
  selects multiple elements
- innerText:it is a property to manipulateplain text
+ innerText:it is a property to manipulate plain text
  innerHTML:it is a property used to add/remove the content within a element
  ===========================================
  spread operator: takes each and every value from original array and store it inside one more new array
@@ -394,6 +394,16 @@ JSON.parse()-java object to js object:parse
  take array of employee object,where each obj contains properties such as empid,empname,empcompany,empsalary and empaddress where 
  empaddress is further having two more properties of object such as empcity,emparea--print this properties in a form of table on the ui by using 
  js
+ =========================================
+ Modules:import/exports to your code
+ 1.Named Modules:Ddefinely while importing should use the same name that
+ you ar edfining exactly with in{} You can export as many modules of code that 
+ you want
+ 2.Default Modules:While importing can use any name that you want.You can export 
+ only one modules of code in one source file.You should use the default keyword 
+ while exporting
+
+ only one varibale can be exported as default 
 
 
 
