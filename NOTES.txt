@@ -404,6 +404,14 @@ JSON.parse()-java object to js object:parse
  while exporting
 
  only one varibale can be exported as default 
+ =======================================
+ create a signup form that contains username,email,password and confirm 
+ password,once you click on submit button,a alert should be popped up on your screen
+ "form is submitted" if and only if all the validations are correct
+ username(!empty)
+ email(@,!empty)
+ password(should be 6)
+ confirm password(same as password,!empty)
 
 
 
