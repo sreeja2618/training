@@ -394,17 +394,18 @@ JSON.parse()-java object to js object:parse
  take array of employee object,where each obj contains properties such as empid,empname,empcompany,empsalary and empaddress where 
  empaddress is further having two more properties of object such as empcity,emparea--print this properties in a form of table on the ui by using 
  js
- =========================================
- Modules:import/exports to your code
- 1.Named Modules:Ddefinely while importing should use the same name that
- you ar edfining exactly with in{} You can export as many modules of code that 
+ =============================================================
+ Modules:import/exports to your code-ES6 feature
+ 1.Named Modules:definely while importing should use the same name that
+ you are defining exactly within{} You can export as many modules of code that 
  you want
  2.Default Modules:While importing can use any name that you want.You can export 
  only one modules of code in one source file.You should use the default keyword 
  while exporting
 
- only one varibale can be exported as default 
- =======================================
+ only one variable can be exported as default 
+ type="module" to convert higher to lower level js
+ =============================================================
  create a signup form that contains username,email,password and confirm 
  password,once you click on submit button,a alert should be popped up on your screen
  "form is submitted" if and only if all the validations are correct
@@ -412,6 +413,9 @@ JSON.parse()-java object to js object:parse
  email(@,!empty)
  password(should be 6)
  confirm password(same as password,!empty)
+ ==============================================================
+
+
 
 
 

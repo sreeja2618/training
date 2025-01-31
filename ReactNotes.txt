@@ -1,0 +1,21 @@
+js is having libraries and frameworks .
+libraries:It is a collection of codes.
+        -has less set of rules,faster
+        -reactjs,jquery
+frameowrks:It is collection of libraries.
+        -more set of rules
+        -angular,vuejs
+
+Important features of react js:
+1.reactjs is a js library to build rich reusable user interface.
+2.reactjs is faster bcz of virtual DOM.
+3.reactjs follows component based architecture.
+4.reactjs follows unidiectional data flow.
+5.reactjs follows both client and server side redering
+
+-react was introduced by facebook in 2011,Jordan Walke.
+-2013,it made it open-source
+-react is free and platform-independent
+-Angular-2009
+
+
