@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <p>react</p>
+      <h1 style={{color:"red"}}>One hour wasted</h1>
     </div>
   );
 }
